@@ -8,15 +8,17 @@
         }
 
         blockElementsByClass('logo');
-        blockElementsByClass('header-items');
-        blockElementsByClass('aplvideo');
-        blockElementsByClass('main-container videoap-container');
-        blockElementsByClass('sm_box_1694957651544');
+        blockElementsByClass('PageHeader');
+        blockElementsByClass('topBarSingle');
+        blockElementsByClass('main-p-menu');
+        blockElementsByClass('AboElSeed');
         blockElementsByClass('header-wrapper');
         blockElementsByClass('footer');
-        blockElementsByClass('row width_fix_300 my-20');
-        blockElementsByClass('row width_fix_300 watch-row-2 my-20');
-        blockElementsByClass('my-40');
+        blockElementsByClass('pl-6f4f5c3f5bfa5f5651799c658cb3556b__wrap');
+        blockElementsByClass('ps_ad_rotation_id_5446');
+        blockElementsByClass('div-over');
+
+        
         blockElementsByClass('div-gpt-ad-1698946296176-0');
         blockElementsByClass('div-gpt-ad-1698946361303-0');
         blockElementsByClass('div-gpt-ad-8176806-1');
