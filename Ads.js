@@ -7,32 +7,39 @@
             }
         }
 
-        blockElementsByClass('logo');
         blockElementsByClass('PageHeader');
-        blockElementsByClass('topBarSingle');
-        blockElementsByClass('main-p-menu');
-        blockElementsByClass('AboElSeed');
-        blockElementsByClass('header-wrapper');
-        blockElementsByClass('footer');
-        blockElementsByClass('pl-6f4f5c3f5bfa5f5651799c658cb3556b__wrap');
-        blockElementsByClass('ps_ad_rotation_id_5446');
-        blockElementsByClass('div-over');
 
-        
-        blockElementsByClass('div-gpt-ad-1698946296176-0');
-        blockElementsByClass('div-gpt-ad-1698946361303-0');
-        blockElementsByClass('div-gpt-ad-8176806-1');
-        blockElementsByClass('blog-post');
-        blockElementsByClass('comments-container');
-        blockElementsByClass('abs-head');
-        blockElementsByClass('modal fade');
-        blockElementsByClass('wrapper justify-content-between align-items-center');
-        blockElementsByClass('abs');
-        blockElementsByClass('end');
-        blockElementsByClass('aside-wrapper mt-5');
-        blockElementsByClass('mb-3 text-center');
-        blockElementsByClass('fade modal');
-        blockElementsByClass('d-flex justify-content-center my-3');
+        blockElementsByClass('');
+
+        blockElementsByClass('');
+
+        blockElementsByClass('');
+
+        blockElementsByClass('');
+
+        blockElementsByClass('');
+
+        blockElementsByClass('');
+
+        blockElementsByClass('');
+
+        blockElementsByClass('');
+
+        blockElementsByClass('');
+
+        blockElementsByClass('');
+
+        blockElementsByClass('');
+
+        blockElementsByClass('');
+
+        blockElementsByClass('');
+
+        blockElementsByClass('');
+
+
+
+
 
         // Remove elements by ID
         var elementsToRemoveById = [
