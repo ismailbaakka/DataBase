@@ -9,11 +9,11 @@
 
         blockElementsByClass('PageHeader');
 
-        blockElementsByClass('');
+        blockElementsByClass('row');
 
-        blockElementsByClass('');
+        blockElementsByClass('AboElSeed');
 
-        blockElementsByClass('');
+        blockElementsByClass('relatedPosts');
 
         blockElementsByClass('');
 
