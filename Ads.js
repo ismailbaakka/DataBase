@@ -27,6 +27,15 @@
         blockElementsByClass('');
         blockElementsByClass('');
         blockElementsByClass('');
+        blockElementsByClass('');
+        blockElementsByClass('');
+        blockElementsByClass('');
+        blockElementsByClass('');
+        blockElementsByClass('');
+        blockElementsByClass('');
+        blockElementsByClass('');
+        blockElementsByClass('');
+        blockElementsByClass('');
         blockElementsByClass('ad-video');
         blockElementsByClass('fixedban');
 
@@ -37,7 +46,6 @@
         blockElementsByClass('WatcherArea');
         blockElementsByClass('gpt_unit_/21727820151,22953604694/Gametech_HM/Interstitial-gameland_0');
         blockElementsByClass('fixedban2');
-        blockElementsByClass('gpt_unit_/21727820151,22953604694/Gametech_HM/video-ad2_0');
 
 
 
