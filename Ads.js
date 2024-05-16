@@ -23,9 +23,25 @@
         blockElementsByClass('x3z10fv');
         blockElementsByClass('ad_position_box');
         blockElementsByClass('ps_ad_rotation_id_5446');
-        blockElementsByClass('ivq3325');
-        blockElementsByClass('div-gpt-ad');
-        blockElementsByClass('div-gpt-');
+        blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b63467');
+        blockElementsByClass('');
+        blockElementsByClass('');
+        blockElementsByClass('');
+        blockElementsByClass('');
+        blockElementsByClass('');
+        blockElementsByClass('');
+        blockElementsByClass('');
+        blockElementsByClass('');
+        blockElementsByClass('');
+        blockElementsByClass('');
+        blockElementsByClass('');
+        blockElementsByClass('');
+        blockElementsByClass('');
+        blockElementsByClass('');
+        blockElementsByClass('');
+        
+
+
 
 
 
