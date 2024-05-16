@@ -19,7 +19,7 @@
         blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b6839');
         blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b49835');
         blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b13062');
-        blockElementsByClass('');
+        blockElementsByClass('gtop show');
         blockElementsByClass('');
         blockElementsByClass('');
         blockElementsByClass('');
@@ -52,7 +52,8 @@
             'fixedban2',
             'fixedban',
             'google_ads_iframe_/21727820151,22953604694/Gametech_HM/video-ad2_0__container__',
-            'container-6f4f5c3f5bfa5f5651799c658cb3556b44923'
+            'container-6f4f5c3f5bfa5f5651799c658cb3556b44923',
+            'div-gpt-ad-1714577932847-0'
 
         ];
 
