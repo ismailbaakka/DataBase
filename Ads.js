@@ -21,33 +21,8 @@
         blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b13062');
         blockElementsByClass('gtop show');
         blockElementsByClass('GoogleCreativeContainerClass');
-        blockElementsByClass('over-close');
-
-
-        blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b32535');
-        blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b62840');
-        blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b9969');
-        blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b8124');
-        blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b12185');
-        blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b41932');
-        blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b71401');
         blockElementsByClass('');
         blockElementsByClass('');
-        blockElementsByClass('');
-        blockElementsByClass('');
-        blockElementsByClass('');
-        blockElementsByClass('');
-        blockElementsByClass('');
-        blockElementsByClass('');
-        blockElementsByClass('');
-        blockElementsByClass('');
-        blockElementsByClass('');
-
-
-        
-
-
-        
 
 
 
