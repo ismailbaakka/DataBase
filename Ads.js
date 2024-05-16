@@ -36,7 +36,7 @@
             'ps_ad_rotation_id_5446',
             'ad_unit',
             'fixedban2',
-            ''
+            'fixedban'
 
         ];
 
