@@ -12,6 +12,22 @@ var classNamesStarts = [
     'container-6f4f5c3f5bfa5f5651799c658cb3556b',
     'anotherClassStart',
     'yetAnotherClassStart',
+    'PageHeader',
+    'SlideMenu',
+    'relatedPosts',
+    'row',
+    'AboElSeed',
+    'ads-aa',
+    'pl-6f4f5c3f5bfa5f5651799c658cb3556b__wrap',
+    'pl-6f4f5',
+    'GoogleCreativeContainerClass',
+    'Google',
+    'MainMenuOverlay',
+    'mys-wrapper',
+    'GoogleActiveViewInnerContainer',
+    'div-over',
+    'WatcherArea',
+
     // add more class starts here
 ];
 
