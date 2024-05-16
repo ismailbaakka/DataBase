@@ -22,7 +22,15 @@
         blockElementsByClass('gtop show');
         blockElementsByClass('GoogleCreativeContainerClass');
         blockElementsByClass('over-close');
+
+        
         blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b32535');
+        blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b62840');
+        blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b9969');
+        blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b8124');
+
+
+        
 
 
 
