@@ -16,6 +16,8 @@
         blockElementsByClass('ads-aa');
         blockElementsByClass('pl-6f4f5c3f5bfa5f5651799c658cb3556b__wrap');
         blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b40743');
+        blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b6839');
+
         //End Page 1
         blockElementsByClass('MainMenuOverlay');
         blockElementsByClass('mys-wrapper');
