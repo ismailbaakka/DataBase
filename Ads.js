@@ -28,9 +28,9 @@
         blockElementsByClass('');
         blockElementsByClass('');
         blockElementsByClass('');
-        blockElementsByClass('');
+        blockElementsByClass('fixedban');
 
-        blockElementsByClass('');
+        blockElementsByClass('rts1-urts1');
         blockElementsByClass('div-gpt-ad-1715073293748-0');
         blockElementsByClass('modal');
         blockElementsByClass('containerIframe');
