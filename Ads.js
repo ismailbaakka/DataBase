@@ -56,3 +56,18 @@
         while (aplvideoDivs.length > 0) {
             aplvideoDivs[0].remove();
         }
+
+
+        chrome.webRequest.onBeforeRequest.addListener(
+  function(details) { 
+    // console.log(details)
+    return {cancel: true}; 
+  },
+  {urls: 
+    ["*://*.doubleclick.net/*",
+    "*://*.googleadservices.com/*",
+    "*://*.googlesyndication.com/*",
+    "*://*.moat.com/*"]
+  },
+  ["blocking"]
+);
