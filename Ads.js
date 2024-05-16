@@ -1,58 +1,105 @@
- function blockElementsByClass(className) {
-            var elements = document.getElementsByClassName(className);
+// ==UserScript==
+// @name            Fuck FuckAdBlock
+// @author          Mechazawa
+// @namespace       Mechazawa
+// @description     Acts like FuckAdBlock.js but always says that no adblock was detected.
+// @license         WTFPl
+// @version         7
+// @include         *
+// @run-at          document-start
+// @updateURL       https://raw.githubusercontent.com/Mechazawa/FuckFuckAdblock/master/FuckFuckAdBlock.user.js
+// @grant           none
+// ==/UserScript==
 
-            // Remove elements from the DOM
-            while (elements.length > 0) {
-                elements[0].parentNode.removeChild(elements[0]);
+
+(function(window) {
+    var debug = false;
+
+    var FuckAdBlock = function(options) {
+        if(options !== undefined)
+            this.setOption(options);
+
+        var self = this;
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                if(self._options.checkOnLoad === true)
+                    self.check(false);
+            }, 1);
+        }, false);
+
+        // hotfix
+        this.debug = {
+            set: function(x){ debug = !!x; return self;},
+            get: function(){ return debug; }
+        };
+    };
+
+    FuckAdBlock.prototype = {
+        setOption : function(options, value) {
+            if(value !== undefined) {
+                var key = options;
+                options = {};
+                options[key] = value;
             }
-        }
 
-        blockElementsByClass('PageHeader');
-        blockElementsByClass('row');
-        blockElementsByClass('AboElSeed');
-        blockElementsByClass('relatedPosts');
-        blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b12073');
-        blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b59147');
-        blockElementsByClass('pl-6f4f5c3f5bfa5f5651799c658cb3556b__wrap');
-        blockElementsByClass('pl-6f4f5c3f5bfa5f5651799c658cb3556b__wrap');
-        blockElementsByClass('fqlverki');
-        blockElementsByClass('WorkTeam');
-        blockElementsByClass('ps_ad_rotation_id_5446');
-        blockElementsByClass('div-over');
-        blockElementsByClass('pl-6f4f5c3f5bfa5f5651799c658cb3556b__wrap');
-        blockElementsByClass('x3z10fv');
-        blockElementsByClass('ad_position_box');
-        blockElementsByClass('ps_ad_rotation_id_5446');
-        blockElementsByClass('ivq3325');
-        blockElementsByClass('Adsense');
-        blockElementsByClass('rts1-urts1');
-        blockElementsByClass('t1.gameland.click');
-        blockElementsByClass('proftrafficcounter.com');
-        blockElementsByClass('unseenreport.com');
+            for(var option in options)
+                this._options[option] = options[option];
 
+            return this;
+        },
 
+        _options : {
+            checkOnLoad:    true,
+            resetOnEnd:     true,
+        },
 
+        _var : {
+            triggers: []
+        },
 
+        check : function(ignore) {
+            this.emitEvent(false);
+            return true;
+        },
 
+        clearEvent : function() {
+            this._var.triggers = [];
+        },
 
-        // Remove elements by ID
-        var elementsToRemoveById = [
-            't1.gameland.click',
-            'google_ads_iframe_/22654869840/apl_1__container__',
-            'google_ads_iframe_/22893379435/apl_0__container__',
-            'dontfoid', // <-- Remove this element
-            'gpt_unit_/7047,22643491855/apl/anchor/anchortop_0'
-        ];
-
-        elementsToRemoveById.forEach(function(elementId) {
-            var element = document.getElementById(elementId);
-            if (element) {
-                element.remove();
+        emitEvent : function(detected) {
+            if(detected === false) {
+                var fns = this._var.triggers;
+                for (var i = 0; i < fns.length; i += 1) {
+                    if (fns[i] instanceof Function) { fns[i](); }
+                }
+                if(this._options.resetOnEnd === true)
+                    this.clearEvent();
             }
-        });
+            return this;
+        },
 
-        // Remove additional aplvideo elements by class name
-        var aplvideoDivs = document.getElementsByClassName('aplvideo');
-        while (aplvideoDivs.length > 0) {
-            aplvideoDivs[0].remove();
+        on : function(detected, fn) {
+            if(detected === false)
+                this._var.triggers.push(fn);
+            return this;
+        },
+
+        onDetected : function(fn) {
+            return this;
+        },
+
+        onNotDetected : function(fn) {
+            return this.on(false, fn);
         }
+    };
+
+    var fuck = new FuckAdBlock();
+    for (var field in fuck) {
+        Object.defineProperty(fuck, field, {value: fuck[field], configurable: false});
+    }
+    Object.defineProperties(window, {fuckAdBlock : { value: fuck, enumerable: true, writable: false }});
+    Object.defineProperties(window, {blockAdBlock : { value: fuck, enumerable: true, writable: false }});
+    Object.defineProperties(window, {sniffAdBlock : { value: fuck, enumerable: true, writable: false }});
+    Object.defineProperties(window, {duckAdBlock : { value: fuck, enumerable: true, writable: false }}); 
+    Object.defineProperties(window, {FuckFuckFuckAdBlock : { value: fuck, enumerable: true, writable: false }});
+})(window);
