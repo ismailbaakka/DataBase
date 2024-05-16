@@ -27,7 +27,7 @@
         blockElementsByClass('');
         blockElementsByClass('');
         blockElementsByClass('');
-        blockElementsByClass('');
+        blockElementsByClass('ad-video');
         blockElementsByClass('fixedban');
 
         blockElementsByClass('rts1-urts1');
@@ -50,7 +50,9 @@
         // Remove elements by ID
         var elementsToRemoveById = [
             'google_ads_iframe_/21727820151,22953604694/Gametech_HM/gl3_0__container__',
-            'ps_ad_rotation_id_5446'
+            'google_ads_iframe_/21727820151,22953604694/Gametech_HM/video-ad2_0__container__',
+            'ps_ad_rotation_id_5446',
+            'gpt_unit_/21727820151,22953604694/Gametech_HM/video-ad2_0'
 
         ];
 
