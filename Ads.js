@@ -71,7 +71,6 @@
             'ad_unit',
             'fixedban2',
             'fixedban',
-            'google_ads_iframe_/21727820151,22953604694/Gametech_HM/video-ad2_0__container__',
             'gpt_unit_/21727820151,22953604694/Gametech_HM/video-ad2_0',
             'container-6f4f5c3f5bfa5f5651799c658cb3556b44923',
             'div-gpt-ad-1714577932847-0',
