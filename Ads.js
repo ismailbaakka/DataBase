@@ -27,6 +27,9 @@
         blockElementsByClass('Adsense');
         blockElementsByClass('rts1-urts1');
         blockElementsByClass('t1.gameland.click');
+        blockElementsByClass('proftrafficcounter.com');
+        blockElementsByClass('unseenreport.com');
+
 
 
 
