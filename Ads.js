@@ -22,7 +22,7 @@
         blockElementsByClass('gtop show');
         blockElementsByClass('GoogleCreativeContainerClass');
         blockElementsByClass('over-close');
-        blockElementsByClass('');
+        blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b32535');
 
 
 
