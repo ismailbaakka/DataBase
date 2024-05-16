@@ -19,7 +19,7 @@
         blockElementsByClass('mys-wrapper');
         blockElementsByClass('GoogleActiveViewInnerContainer');
         blockElementsByClass('div-over');
-        blockElementsByClass('');
+        blockElementsByClass('WatcherArea');
 
 
 
@@ -36,7 +36,8 @@
             'ps_ad_rotation_id_5446',
             'ad_unit',
             'fixedban2',
-            'fixedban'
+            'fixedban',
+            'google_ads_iframe_/21727820151,22953604694/Gametech_HM/video-ad2_0__container__'
 
         ];
 
