@@ -16,9 +16,9 @@
         blockElementsByClass('ads-aa');
         //End Page 1
         blockElementsByClass('MainMenuOverlay');
-        blockElementsByClass('');
-        blockElementsByClass('');
-        blockElementsByClass('');
+        blockElementsByClass('mys-wrapper');
+        blockElementsByClass('GoogleActiveViewInnerContainer');
+        blockElementsByClass('div-over');
         blockElementsByClass('');
 
 
@@ -31,11 +31,11 @@
 
         // Remove elements by ID
         var elementsToRemoveById = [
-            '',
-            '',
-            '',
-            '',
-            '',
+            'div-gpt-ad-1714577946689-0',
+            'div-gpt-ad-1715073293748-0',
+            'ps_ad_rotation_id_5446',
+            'ad_unit',
+            'fixedban2',
             ''
 
         ];
