@@ -13,8 +13,9 @@
         blockElementsByClass('relatedPosts');
         blockElementsByClass('row');
         blockElementsByClass('AboElSeed');
-        blockElementsByClass('');
-        blockElementsByClass('');
+        blockElementsByClass('ads-aa');
+        //End Page 1
+        blockElementsByClass('MainMenuOverlay');
         blockElementsByClass('');
         blockElementsByClass('');
         blockElementsByClass('');
