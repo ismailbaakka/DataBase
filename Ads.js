@@ -16,11 +16,9 @@
         blockElementsByClass('pl-6f4f5c3f5bfa5f5651799c658cb3556b__wrap');
         blockElementsByClass('fqlverki');
         blockElementsByClass('WorkTeam');
-        blockElementsByClass('ps_ad_rotation_id_5446');
         blockElementsByClass('div-over');
         blockElementsByClass('x3z10fv');
         blockElementsByClass('ad_position_box');
-        blockElementsByClass('ps_ad_rotation_id_5446');
         blockElementsByClass('container-6f4f5c3f5bfa5f5651799c658cb3556b63467');
         blockElementsByClass('ps_ad_rotation_id_5199');
         blockElementsByClass('div-gpt-ad-1714577946689-0');
@@ -31,12 +29,15 @@
         blockElementsByClass('');
         blockElementsByClass('');
         blockElementsByClass('');
+
         blockElementsByClass('');
-        blockElementsByClass('');
-        blockElementsByClass('');
-        blockElementsByClass('');
-        blockElementsByClass('');
-        blockElementsByClass('');
+        blockElementsByClass('div-gpt-ad-1715073293748-0');
+        blockElementsByClass('modal');
+        blockElementsByClass('containerIframe');
+        blockElementsByClass('WatcherArea');
+        blockElementsByClass('gpt_unit_/21727820151,22953604694/Gametech_HM/Interstitial-gameland_0');
+        blockElementsByClass('fixedban2');
+        blockElementsByClass('gpt_unit_/21727820151,22953604694/Gametech_HM/video-ad2_0');
 
 
 
@@ -48,12 +49,9 @@
 
         // Remove elements by ID
         var elementsToRemoveById = [
-            't1.gameland.click',
-            'google_ads_iframe_/22654869840/apl_1__container__',
-            'google_ads_iframe_/22893379435/apl_0__container__',
-            'dontfoid', // <-- Remove this element
-            'gpt_unit_/21727820151,22953604694/Gametech_HM/Interstitial-gamestation_0',
-            'l7qz7g1'
+            'google_ads_iframe_/21727820151,22953604694/Gametech_HM/gl3_0__container__',
+            'ps_ad_rotation_id_5446'
+
         ];
 
         elementsToRemoveById.forEach(function(elementId) {
